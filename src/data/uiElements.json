@@ -1,0 +1,71 @@
+{
+  "header": {
+    "style": {
+      "position": "fixed",
+      "top": "0",
+      "left": "0",
+      "width": "100%",
+      "display": "flex",
+      "justifyContent": "space-between",
+      "alignItems": "center",
+      "padding": "15px 30px",
+      "boxSizing": "border-box",
+      "zIndex": 900
+    },
+    "logo": {
+      "imageUrl": "/assets/2d/CAA-Logo-UPDATE2.png",
+      "altText": "CAA Logo",
+      "link": "https://www.catskillsagrarianalliance.org/",
+      "isExternal": true,
+      "style": {
+        "height": "55px",
+        "width": "auto"
+      }
+    }
+  },
+  "footer": {
+     "style": {
+       "position": "fixed",
+       "bottom": "0",
+       "left": "0",
+       "width": "100%",
+       "padding": "15px 30px",
+       "boxSizing": "border-box",
+       "display": "flex",
+       "justifyContent": "center",
+       "alignItems": "center",
+       "zIndex": 900
+    },
+    "copyright": {
+      "text": "© 2025 Catskills Agrarian Alliance",
+      "style": {
+        "fontSize": "12px",
+        "color": "#FFFFFF"
+      }
+    },
+    "links": [
+      {
+        "id": "footer-link-1",
+        "text": "Privacy Policy",
+        "url": "/privacy",
+        "isExternal": false,
+        "style": {
+          "color": "#FFFFFF",
+          "textDecoration": "none",
+          "marginLeft": "20px"
+        }
+      },
+      {
+        "id": "footer-link-2",
+        "text": "Contact",
+        "url": "mailto:info@catskillsagrarianalliance.org",
+        "isExternal": true,
+        "style": {
+          "color": "#FFFFFF",
+          "textDecoration": "none",
+          "marginLeft": "20px"
+        }
+      }
+    ]
+  }
+}

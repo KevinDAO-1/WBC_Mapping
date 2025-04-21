@@ -1,0 +1,221 @@
+{
+  "Ellanor": {
+    "title": "Berry Brook Farm",
+    "highlightQuote": "Farming isn’t a fixed science. It’s shaped by place, time, and people.",
+    "mainVideoUrl": "/assets/videos/Ellanor.mp4",
+    "chapters": [
+      {
+        "title": "History and Beginnings",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Berry Brook Farm was founded in 2011 by Ellanor and her partner Patrick. Starting from scratch in the Catskills, they gradually built a diversified and high-output farm on limited acreage. The beginning was made possible with the help of local farmers—neighbors who tilled, spread lime, shared their equipment, and helped them get to markets." },
+          { "type": "quote", "text": "We were helped in the beginning—and now we’re just paying it forward." },
+          { "type": "paragraph", "text": "This spirit of mutual support deeply shaped Ellanor’s approach to farming and community." },
+          { 
+            "type": "image", 
+            "url": "/assets/images/Ellanor_5.jpg" 
+          } 
+        ]
+      },
+      {
+        "title": "Current Practices",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Today, Berry Brook Farm is a core contributor to the 607 CSA, a regional cooperative distributing fresh produce from over 60 farms to 30+ pickup sites across NYC and upstate. Ellanor uses a tightly managed system including heated greenhouses, walk-in coolers, and root washers to maintain steady production nearly year-round." },
+          { "type": "paragraph", "text": "The farm focuses on sustainable soil management—no heavy tilling, no chemical fertilizers, always rotating and restoring." },
+          { 
+            "type": "image", 
+            "url": "/assets/images/Ellanor_7.jpg" 
+          }, 
+          { 
+            "type": "image", 
+            "url": "/assets/images/Ellanor_1.jpg" 
+          } 
+        ]
+      },
+      {
+        "title": "Community Contribution",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Berry Brook’s role goes beyond production. Ellanor actively supports younger farmers—like Sea from Sana Vida Farm—by mentoring, sharing tools, offering technical advice, and helping build marketing pathways." },
+          { "type": "quote", "text": "Farming isn’t a fixed science. It’s shaped by place, time, and people." },
+          { "type": "paragraph", "text": "She sees this support not as charity but as reciprocity, echoing the generosity she and Patrick once received. In addition to vegetable production, Ellanor is also experimenting with growing upland sushi rice adapted to the Catskills’ conditions." },
+          { 
+            "type": "image", 
+            "url": "/assets/images/Ellanor_6.jpg" 
+          } 
+        ]
+      },
+      {
+        "title": "Looking Ahead",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Despite the distance to urban markets and limitations of local demand, Ellanor is exploring ways to strengthen regional food resilience. This includes reducing reliance on city markets, focusing on product diversification, and possibly integrating perennial crops like fruit trees." },
+          { "type": "paragraph", "text": "Farming, she believes, is not a finished or linear journey, but one that requires constant adjustment, experimentation, and connection to the land." },
+          { 
+            "type": "image", 
+            "url": "/assets/images/Ellanor_8.jpg" 
+          } 
+        ]
+      }
+    ]
+  },
+  "Sea": {
+    "title": "Sana Vida Farm",
+    "highlightQuote": "Everything I do is rooted in reciprocity.",
+    "mainVideoUrl": "/assets/videos/Sea.mp4",
+    "chapters": [
+      {
+        "title": "Farm Overview",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Sana Vida Farm is a small-scale, high-density operation founded by Bronx-born, queer Puerto Rican farmer Sea Matias in the Catskills. The farm’s name—Sana Vida—means 'healing life' and also references exchange and creativity in Taino language." },
+          { "type": "paragraph", "text": "Sea grows culturally rooted foods on less than two acres, yet yields tens of thousands of pounds of produce annually, much of which supports mutual aid networks in the Bronx, Harlem, and beyond." },
+          { "type": "quote", "text": "Everything I do is rooted in reciprocity." },
+          { 
+            "type": "image", 
+            "url": "/assets/images/Sea_1.jpg" 
+          } 
+        ]
+      },
+      {
+        "title": "Ancestral Connection",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Sea’s farming is deeply informed by the teachings of her grandmother, who farmed the hills of Puerto Rico before working in New York City factories. That legacy lives on in Sea’s work, from saving seeds to growing crops like culantro, epazote, and Caribbean greens that honor her heritage." },
+          { "type": "paragraph", "text": "By localizing tropical techniques and valuing slow, intentional farming, she brings culture, memory, and justice into every harvest." },
+          { 
+            "type": "image", 
+            "url": "/assets/images/Sea_2.jpg" 
+          } 
+        ]
+      },
+      {
+        "title": "Mutual Aid and Food Sovereignty",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Sea doesn’t sell to traditional markets—instead, her harvests are delivered directly into hands of community members through Ujamaa Garden, Kelly Street Garden, and other mutual aid groups." },
+          { "type": "quote", "text": "Land is not something to own. It’s something to be in relationship with." },
+          { "type": "paragraph", "text": "Her farming model is not centered on yield, but on need and relationship. She bridges Bronx and Catskills through a 'rural-to-urban' food loop that is built on trust and grassroots solidarity." },
+          { 
+            "type": "image", 
+            "url": "/assets/images/Sea_3.jpg" 
+          } 
+        ]
+      },
+      {
+        "title": "Building Commons",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "As a member of Iridescent Earth Collective and a partner in the Great Northern Catskills Agrarian Commons, Sea is helping redefine what land access means for new farmers." },
+          { "type": "paragraph", "text": "With support from Tom Hutson and mentorship from farms like Berry Brook, she is building a path for BIPOC and queer farmers to not only steward land, but reshape its values." },
+          { 
+            "type": "image", 
+            "url": "/assets/images/Sea_4.jpg" 
+          } 
+        ]
+      }
+    ]
+  },
+  "Tom": {
+    "title": "River Haven Farm",
+    "highlightQuote": "On my own ground, I’m king.",
+    "mainVideoUrl": "/assets/videos/Tom.mp4",
+    "chapters": [
+      {
+        "title": "Family Legacy",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Tommy Hutson has been farming since he could walk. A fourth-generation dairy farmer, he took over River Haven Farm in the late 1960s alongside his father." },
+          { "type": "quote", "text": "I never had a real job. I’ve just always worked the land." },
+          { "type": "paragraph", "text": "He never left the land. The farm has been in his family since the 1800s, and his life is woven into its rhythms, from riverbed soil to hayfields to barns passed down through generations." },
+          { 
+            "type": "image", 
+            "url": "/assets/images/Tom_2.jpg" 
+          } 
+        ]
+      },
+      {
+        "title": "Conservation Leadership",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "In 1995, Tom became the first farmer in the Catskills to enroll in the Watershed Agricultural Council’s conservation easement program. Since then, he’s helped protect over 33,000 acres of land in the region, and he chairs the easement review committee." },
+          { "type": "paragraph", "text": "For Tom, land preservation isn’t just about ecology—it’s about ensuring future farmers have a chance to farm." },
+          { 
+            "type": "image", 
+            "url": "/assets/images/Tom_4.jpg" 
+          } 
+        ]
+      },
+      {
+        "title": "Stewarding the Next Generation",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Rather than selling to the highest bidder, Tom partnered with the American Farmland Trust and Catskills Agrarian Alliance to transition parts of his land into the Commons, enabling young BIPOC and queer farmers like Sea, Jessica, and Kadeesha to access secure land tenure." },
+          { "type": "quote", "text": "On my own ground, I’m king." },
+          { "type": "paragraph", "text": "He believes in preparing the land for people who will love it as much as he has." },
+          { 
+            "type": "image", 
+            "url": "/assets/images/Tom_5.jpg" 
+          } 
+        ]
+      },
+      {
+        "title": "Wisdom and Wit",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Tom’s stories trace anti-rent wars, Scottish ancestry, and World War II history, all threaded with reflections on how the land has shaped him—and how he wants to shape its future." },
+          { "type": "paragraph", "text": "He speaks with dry wit and deep-rooted wisdom, carrying both humor and gravity as a steward of place." },
+          { 
+            "type": "image", 
+            "url": "/assets/images/Tom_1.jpg" 
+          } 
+        ]
+      }
+    ]
+  },
+  "KW & JT": {
+    "title": "Iridescent Earth Collective",
+    "highlightQuote": "We don’t just want access to land—we want to transform what land means.",
+    "mainVideoUrl": "/assets/videos/KW_ JT.mp4",
+    "chapters": [
+      {
+        "title": "Origins and Vision",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Kadeesha Williams and Jessica Tobon co-founded Iridescent Earth Collective (IEC) in 2020 as queer, Black and Latina land stewards rooted in the Bronx." },
+          { "type": "paragraph", "text": "IEC centers healing, joy, and dignity in its approach to farming, rejecting extraction and efficiency in favor of relationship, ritual, and community care." },
+          { "type": "quote", "text": "This is not a production-driven farm—it’s a space for healing and belonging." },
+          { 
+            "type": "image", 
+            "url": "/assets/images/KW & JT_1.jpg" 
+          } 
+        ]
+      },
+      {
+        "title": "Farming Practice",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Their work takes place on Iridescent Earth Farm, a collectively-held farm in partnership with River Haven Farm and the Agrarian Commons. The farm cultivates culturally meaningful foods and prioritizes accessibility for disabled, queer, and BIPOC bodies." },
+          { "type": "paragraph", "text": "Rather than maximizing yield, IEC respects the pace of bodies and seasons—acknowledging that healing is as vital as harvest." },
+          { 
+            "type": "image", 
+            "url": "/assets/images/KW & JT_2.jpg" 
+          },
+          { 
+            "type": "image", 
+            "url": "/assets/images/KW & JT_3.jpg" 
+          }  
+        ]
+      },
+      {
+        "title": "Urban–Rural Continuum",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Kadeesha and Jessica are architects of a Bronx-to-Catskills food and education loop, bringing food from the land to Bronx communities while also inviting Bronx youth to the farm." },
+          { "type": "paragraph", "text": "They work with mutual aid groups, schools, and organizers to build bridges across geography, culture, and class—turning the farm into both a growing space and a relational commons." },
+          { 
+            "type": "image", 
+            "url": "/assets/images/KW & JT_4.jpg" 
+          } 
+        ]
+      },
+      {
+        "title": "Rooted in Reciprocity",
+        "contentBlocks": [
+          { "type": "quote", "text": "We don’t just want access to land—we want to transform what land means." },
+          { "type": "paragraph", "text": "IEC is not a project—it’s a practice. On any given day, the farm might be a site of ceremony, a healing space, a food distribution hub, or a quiet place to rest. By grounding land work in reciprocity, IEC challenges what farms are for and who they belong to." },
+          { 
+            "type": "image", 
+            "url": "/assets/images/KW & JT_5.jpg" 
+          } 
+        ]
+      }
+    ]
+  }
+}
