@@ -2,7 +2,7 @@
   "Ellanor": {
     "title": "Berry Brook Farm",
     "highlightQuote": "Farming isn’t a fixed science. It’s shaped by place, time, and people.",
-    "mainVideoUrl": "/assets/videos/Ellanor.mp4",
+    "mainVideoUrl": "https://youtu.be/fD40O3Y3VfM",
     "chapters": [
       {
         "title": "History and Beginnings",
@@ -59,7 +59,7 @@
   "Sea": {
     "title": "Sana Vida Farm",
     "highlightQuote": "Everything I do is rooted in reciprocity.",
-    "mainVideoUrl": "/assets/videos/Sea.mp4",
+    "mainVideoUrl": "https://youtu.be/ULtnQXg04Bw",
     "chapters": [
       {
         "title": "Farm Overview",
@@ -112,7 +112,7 @@
   "Tom": {
     "title": "River Haven Farm",
     "highlightQuote": "On my own ground, I’m king.",
-    "mainVideoUrl": "/assets/videos/Tom.mp4",
+    "mainVideoUrl": "https://youtu.be/nH1VQkJMN3c",
     "chapters": [
       {
         "title": "Family Legacy",
@@ -165,7 +165,7 @@
   "KW & JT": {
     "title": "Iridescent Earth Collective",
     "highlightQuote": "We don’t just want access to land—we want to transform what land means.",
-    "mainVideoUrl": "/assets/videos/KW_ JT.mp4",
+    "mainVideoUrl": "https://youtu.be/cLRuSr8jZEo",
     "chapters": [
       {
         "title": "Origins and Vision",

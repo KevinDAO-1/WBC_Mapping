@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Media Assets - Ignore large video files
+public/assets/videos/

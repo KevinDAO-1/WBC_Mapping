@@ -39,7 +39,8 @@ const onSceneReady = (scene, onLocationSelect) => {
 
 
   // Load the model, then create GUI texture AND markers in the success callback
-  SceneLoader.Append("/", MODEL_PATH.startsWith('/') ? MODEL_PATH.substring(1) : MODEL_PATH, scene, function (loadedScene) {
+  // Set rootUrl to the directory and sceneFilename to the file name
+  SceneLoader.Append("/assets/3d/", "mapnewb.glb", scene, function (loadedScene) { 
     console.log("Model appended to scene!");
     console.log("Loaded mesh names:");
     loadedScene.meshes.forEach(mesh => console.log(`- ${mesh.name}`));
@@ -131,7 +132,7 @@ const onSceneReady = (scene, onLocationSelect) => {
     console.error("Error loading model:", message, exception);
   });
 
-  console.log("SceneLoader.Append called for:", MODEL_PATH);
+  // console.log("SceneLoader.Append called for:", MODEL_PATH); // Logging the old constant is confusing now
 
   return scene;
 };

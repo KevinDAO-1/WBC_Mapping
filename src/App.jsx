@@ -30,7 +30,12 @@ function App() {
   const [isPanelVisible, setIsPanelVisible] = useState(false);
   const [panelContent, setPanelContent] = useState(null);
   const [isPanelOpen, setIsPanelOpen] = useState(false);
-  const [enlargedVideoSrc, setEnlargedVideoSrc] = useState(null); 
+  const [enlargedVideoSrc, setEnlargedVideoSrc] = useState(null);
+  
+  // --- Add state for video playback ---
+  const [videoCurrentTime, setVideoCurrentTime] = useState(0);
+  const [videoIsPlaying, setVideoIsPlaying] = useState(false);
+  // --- End video state ---
 
   const handleLocationSelect = useCallback((locationId) => {
     const content = allContentData[locationId]; 
@@ -38,32 +43,59 @@ function App() {
       setPanelContent(content);
       setIsPanelVisible(true);
       setIsPanelOpen(true);
-      setEnlargedVideoSrc(null); 
+      setEnlargedVideoSrc(null);
+      // Reset video state when selecting a new location
+      setVideoCurrentTime(0);
+      setVideoIsPlaying(false);
     } else {
       console.warn(`Content not found for location ID: ${locationId}`);
       setPanelContent(null); 
-      setIsPanelVisible(false); 
+      setIsPanelVisible(false);
       setIsPanelOpen(false);
       setEnlargedVideoSrc(null);
+      // Reset video state
+      setVideoCurrentTime(0);
+      setVideoIsPlaying(false);
     }
-  }, []); 
+  }, []);
 
   const handlePanelClose = useCallback(() => {
     setIsPanelVisible(false);
-    setTimeout(() => setPanelContent(null), 400); 
+    setTimeout(() => setPanelContent(null), 400);
     setIsPanelOpen(false);
-    setEnlargedVideoSrc(null); 
+    setEnlargedVideoSrc(null);
+    // Reset video state on close
+    setVideoCurrentTime(0);
+    setVideoIsPlaying(false);
   }, []);
 
+  // --- Video State Handlers ---
+  const handleVideoTimeUpdate = useCallback((time) => {
+    // console.log("App received time update:", time);
+    setVideoCurrentTime(time);
+  }, []);
+
+  const handleVideoPlayPause = useCallback((playing) => {
+     // console.log("App received play/pause:", playing);
+    setVideoIsPlaying(playing);
+  }, []);
+  // --- End Video State Handlers ---
+
+
   const handleEnlargeVideo = useCallback((src) => {
+    // When enlarging, ensure the enlarged player starts playing
+    setVideoIsPlaying(true); 
     setEnlargedVideoSrc(src);
   }, []);
 
   const handleShrinkVideo = useCallback(() => {
+    // When shrinking, ensure the small player (when it reappears) starts paused
+    // The time state (videoCurrentTime) is already preserved
+    setVideoIsPlaying(false); 
     setEnlargedVideoSrc(null);
   }, []);
 
-  const panelWidth = '35%'; 
+  const panelWidth = '35%';
   const translationAmount = `calc(-${panelWidth} / 2)`; 
 
   const canvasContainerStyle = {
@@ -78,30 +110,39 @@ function App() {
     transition: 'transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1.0)', 
   };
 
-  // Style for the container that holds and centers the enlarged video
+  // Style for the container that holds and centers the enlarged video within the map area
   const enlargedVideoWrapperStyle = {
       position: 'fixed',
       top: 0,
-      // Adjust left to center the 85vw video in the full viewport
-      left: '7.5vw', // (100vw - 85vw) / 2 = 7.5vw 
-      width: '85vw', // Cover most of the viewport width
-      height: '100vh',
-      display: 'flex',
-      alignItems: 'center', // Vertical centering
-      justifyContent: 'center', // Horizontal centering (of the motion div inside)
-      zIndex: 1150, 
-      pointerEvents: 'none', 
+      left: 0,
+      right: isPanelOpen ? panelWidth : '0', // Define right boundary instead of width
+      // width: isPanelOpen ? `calc(100vw - ${panelWidth})` : '100vw', // Remove explicit width
+      bottom: 0,
+      display: 'flex', // Use flexbox for centering again
+      alignItems: 'center',
+      justifyContent: 'center',
+      // position: 'relative', // Not needed for flex centering
+      zIndex: 1150,
+      pointerEvents: 'none',
+      transition: 'right 0.5s cubic-bezier(0.25, 0.1, 0.25, 1.0)', // Transition right boundary
   };
 
-  // Style for the enlarged video motion.div itself
+  // Style for the enlarged video motion.div itself - Define size/ratio, remove absolute positioning
   const enlargedVideoMotionStyle = {
-      width: '100%', // Take full width of the wrapper (which is 85vw)
-      position: 'relative', 
-      zIndex: 1200, 
-      boxShadow: '0px 10px 30px rgba(0,0,0,0.5)', 
-      borderRadius: '8px', 
-      overflow: 'hidden',
-      pointerEvents: 'auto', 
+      // position: 'absolute', // Remove absolute positioning
+      // top: '50%',
+      // left: '50%',
+      // transform: 'translate(-50%, -50%)',
+      width: '90%', // Keep 90% width relative to the flex container
+      maxWidth: '1200px',
+      aspectRatio: '16 / 9',
+      position: 'relative', // Add back relative positioning for the button
+      zIndex: 1200,
+      backgroundColor: 'rgba(255, 0, 0, 0.2)', // Add temporary background for debugging
+      // boxShadow: '0px 10px 30px rgba(0,0,0,0.5)', // Keep shadow removed
+      borderRadius: '8px',
+      // overflow: 'hidden', // Keep overflow hidden removed for now
+      pointerEvents: 'auto',
   };
 
    const shrinkButtonStyle = {
@@ -114,7 +155,7 @@ function App() {
     borderRadius: '4px',
     padding: '5px 8px',
     cursor: 'pointer',
-    zIndex: 1300, 
+    zIndex: 2000, // Increase zIndex significantly
   };
 
 
@@ -143,7 +184,13 @@ function App() {
             <SidePanel
               onClose={handlePanelClose}
               content={panelContent}
-              onEnlargeVideo={handleEnlargeVideo} 
+              onEnlargeVideo={handleEnlargeVideo}
+              isEnlarged={!!enlargedVideoSrc}
+              // Pass video state and handlers down
+              videoIsPlaying={videoIsPlaying}
+              videoCurrentTime={videoCurrentTime}
+              onVideoTimeUpdate={handleVideoTimeUpdate}
+              onVideoPlayPause={handleVideoPlayPause}
             />
           </motion.div>
         )}
@@ -156,12 +203,26 @@ function App() {
               key="enlarged-video" 
               layoutId={`video-player-${panelContent?.id || 'main'}`} 
               style={enlargedVideoMotionStyle} 
-              transition={videoTransition} 
+              transition={videoTransition}
             >
-              {/* Pass autoPlay prop */}
-              <VideoPlayer src={enlargedVideoSrc} showControls={true} autoPlay={true} /> 
+              {/* Pass state and handlers to enlarged player */}
+              <VideoPlayer 
+                src={enlargedVideoSrc} 
+                isPlaying={videoIsPlaying} // Control playing state
+                initialTime={videoCurrentTime} // Set start time
+                onTimeUpdate={handleVideoTimeUpdate} // Report time back
+                onPlayPause={handleVideoPlayPause} // Report play/pause back
+                autoPlay={true} // Attempt autoplay (might be blocked)
+                // Pass explicit style to override default aspectRatio and fill parent motion.div
+                style={{ 
+                  width: '100%', 
+                  height: '100%', 
+                  aspectRatio: 'unset', // Override internal aspect ratio
+                  marginBottom: 0 
+                }} 
+              />
               <button onClick={handleShrinkVideo} style={shrinkButtonStyle} title="Shrink Video">
-                 <ShrinkIcon />
+                <ShrinkIcon />
               </button>
             </motion.div>
           </div>

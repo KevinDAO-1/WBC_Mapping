@@ -31,8 +31,18 @@ const itemVariants = {
   }
 };
 
-// Accept onEnlargeVideo callback prop
-function SidePanel({ onClose, content, onEnlargeVideo }) { 
+// Accept onEnlargeVideo, isEnlarged, and video state/handlers
+function SidePanel({ 
+  onClose, 
+  content, 
+  onEnlargeVideo, 
+  isEnlarged,
+  // Video state props from App.jsx
+  videoIsPlaying,
+  videoCurrentTime,
+  onVideoTimeUpdate,
+  onVideoPlayPause
+}) { 
   
   const panelStyle = {
     width: '100%', 
@@ -186,17 +196,25 @@ function SidePanel({ onClose, content, onEnlargeVideo }) {
             </motion.p>
           )}
 
-          {/* Main Video Player (Normal State) */}
-          {content.mainVideoUrl && (
+          {/* Main Video Player (Normal State) - Conditionally render based on isEnlarged */}
+          {content.mainVideoUrl && !isEnlarged && ( // Only render if not enlarged
             // Add layoutId to the wrapper div
             <motion.div 
               layoutId={`video-player-${content.id || 'main'}`} // Unique layoutId based on content ID
               variants={itemVariants} 
               style={videoContainerStyle}
             >
-              <VideoPlayer src={content.mainVideoUrl} />
+              {/* Pass state and handlers to the small video player */}
+              <VideoPlayer 
+                src={content.mainVideoUrl} 
+                isPlaying={videoIsPlaying} // Use shared playing state
+                initialTime={videoCurrentTime} // Use shared current time
+                onTimeUpdate={onVideoTimeUpdate} // Report time updates up
+                onPlayPause={onVideoPlayPause} // Report play/pause up
+                autoPlay={false} // Don't autoplay the small one initially
+              />
               <button 
-                onClick={() => onEnlargeVideo(content.mainVideoUrl)} 
+                onClick={() => onEnlargeVideo(content.mainVideoUrl)} // Enlarge handler remains the same
                 style={enlargeButtonStyle} 
                 title="Enlarge Video"
               >
