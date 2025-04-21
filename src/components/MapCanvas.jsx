@@ -4,7 +4,12 @@ import { AdvancedDynamicTexture, Rectangle, Image, Control } from '@babylonjs/gu
 import '@babylonjs/loaders/glTF';
 import locationsData from '../data/locations.json';
 
-const MODEL_PATH = '/assets/3d/mapnewb.glb';
+// Construct the model path relative to the base URL for deployment
+const BASE_URL = import.meta.env.BASE_URL || '/'; // Get base URL from Vite, default to '/'
+const MODEL_FILENAME = "mapnewb.glb";
+const MODEL_DIR_RELATIVE = "assets/3d/"; // Relative path within the base
+const MODEL_ROOT_URL = BASE_URL + MODEL_DIR_RELATIVE; // Root URL for Babylon loader
+const MODEL_PATH_FOR_LOGGING = BASE_URL + MODEL_DIR_RELATIVE + MODEL_FILENAME; // Full path for logging
 
 // Defer GUI Texture creation AND Marker creation until model is loaded
 const onSceneReady = (scene, onLocationSelect) => {
@@ -38,9 +43,9 @@ const onSceneReady = (scene, onLocationSelect) => {
   // --- End Pipeline Setup ---
 
 
-  // Load the model, then create GUI texture AND markers in the success callback
-  // Set rootUrl to the directory and sceneFilename to the file name
-  SceneLoader.Append("/assets/3d/", "mapnewb.glb", scene, function (loadedScene) { 
+  // Load the model using the calculated rootUrl and filename
+  console.log(`Attempting to load model from rootUrl: "${MODEL_ROOT_URL}" filename: "${MODEL_FILENAME}"`);
+  SceneLoader.Append(MODEL_ROOT_URL, MODEL_FILENAME, scene, function (loadedScene) {
     console.log("Model appended to scene!");
     console.log("Loaded mesh names:");
     loadedScene.meshes.forEach(mesh => console.log(`- ${mesh.name}`));
@@ -129,10 +134,10 @@ const onSceneReady = (scene, onLocationSelect) => {
     // --- End GUI Marker Creation ---
 
   }, null, function (scene, message, exception) {
-    console.error("Error loading model:", message, exception);
+    console.error(`Error loading model from ${MODEL_ROOT_URL}${MODEL_FILENAME}:`, message, exception);
   });
 
-  // console.log("SceneLoader.Append called for:", MODEL_PATH); // Logging the old constant is confusing now
+  // console.log("SceneLoader.Append called for:", MODEL_PATH_FOR_LOGGING); // Log the full expected path
 
   return scene;
 };
