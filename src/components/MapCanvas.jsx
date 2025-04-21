@@ -4,12 +4,9 @@ import { AdvancedDynamicTexture, Rectangle, Image, Control } from '@babylonjs/gu
 import '@babylonjs/loaders/glTF';
 import locationsData from '../data/locations.json';
 
-// Construct the model path relative to the base URL for deployment
-const BASE_URL = import.meta.env.BASE_URL || '/'; // Get base URL from Vite, default to '/'
+// Define constants for model loading, hardcoding the base path for deployment
 const MODEL_FILENAME = "mapnewb.glb";
-const MODEL_DIR_RELATIVE = "assets/3d/"; // Relative path within the base
-const MODEL_ROOT_URL = BASE_URL + MODEL_DIR_RELATIVE; // Root URL for Babylon loader
-const MODEL_PATH_FOR_LOGGING = BASE_URL + MODEL_DIR_RELATIVE + MODEL_FILENAME; // Full path for logging
+const DEPLOYMENT_ROOT_URL = "/WBC_Mapping/assets/3d/"; // Hardcoded root URL for GitHub Pages
 
 // Defer GUI Texture creation AND Marker creation until model is loaded
 const onSceneReady = (scene, onLocationSelect) => {
@@ -43,9 +40,9 @@ const onSceneReady = (scene, onLocationSelect) => {
   // --- End Pipeline Setup ---
 
 
-  // Load the model using the calculated rootUrl and filename
-  console.log(`Attempting to load model from rootUrl: "${MODEL_ROOT_URL}" filename: "${MODEL_FILENAME}"`);
-  SceneLoader.Append(MODEL_ROOT_URL, MODEL_FILENAME, scene, function (loadedScene) {
+  // Load the model using the hardcoded rootUrl and filename
+  console.log(`Attempting to load model from rootUrl: "${DEPLOYMENT_ROOT_URL}" filename: "${MODEL_FILENAME}"`);
+  SceneLoader.Append(DEPLOYMENT_ROOT_URL, MODEL_FILENAME, scene, function (loadedScene) {
     console.log("Model appended to scene!");
     console.log("Loaded mesh names:");
     loadedScene.meshes.forEach(mesh => console.log(`- ${mesh.name}`));
@@ -134,10 +131,10 @@ const onSceneReady = (scene, onLocationSelect) => {
     // --- End GUI Marker Creation ---
 
   }, null, function (scene, message, exception) {
-    console.error(`Error loading model from ${MODEL_ROOT_URL}${MODEL_FILENAME}:`, message, exception);
+    console.error(`Error loading model from ${DEPLOYMENT_ROOT_URL}${MODEL_FILENAME}:`, message, exception);
   });
 
-  // console.log("SceneLoader.Append called for:", MODEL_PATH_FOR_LOGGING); // Log the full expected path
+  // console.log("SceneLoader.Append called for:", DEPLOYMENT_ROOT_URL + MODEL_FILENAME);
 
   return scene;
 };
