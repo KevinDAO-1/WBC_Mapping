@@ -78,7 +78,7 @@ const onSceneReady = (scene, onLocationSelect) => {
       markerContainer.thickness = 0;
       markerContainer.background = "transparent";
 
-      const arrowImage = new Image(`arrow_${location.id}`, "/assets/2d/Asset 2.png");
+      const arrowImage = new Image(`arrow_${location.id}`, "/WBC_Mapping/assets/2d/Asset 2.png");
       arrowImage.widthInPixels = arrowBaseSize;
       arrowImage.heightInPixels = arrowBaseSize;
       arrowImage.verticalAlignment = Control.VERTICAL_ALIGNMENT_BOTTOM;

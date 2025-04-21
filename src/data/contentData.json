@@ -12,7 +12,7 @@
           { "type": "paragraph", "text": "This spirit of mutual support deeply shaped Ellanor’s approach to farming and community." },
           { 
             "type": "image", 
-            "url": "/assets/images/Ellanor_5.jpg" 
+            "url": "/WBC_Mapping/assets/images/Ellanor_5.jpg" 
           } 
         ]
       },
@@ -23,11 +23,11 @@
           { "type": "paragraph", "text": "The farm focuses on sustainable soil management—no heavy tilling, no chemical fertilizers, always rotating and restoring." },
           { 
             "type": "image", 
-            "url": "/assets/images/Ellanor_7.jpg" 
+            "url": "/WBC_Mapping/assets/images/Ellanor_7.jpg" 
           }, 
           { 
             "type": "image", 
-            "url": "/assets/images/Ellanor_1.jpg" 
+            "url": "/WBC_Mapping/assets/images/Ellanor_1.jpg" 
           } 
         ]
       },
@@ -39,7 +39,7 @@
           { "type": "paragraph", "text": "She sees this support not as charity but as reciprocity, echoing the generosity she and Patrick once received. In addition to vegetable production, Ellanor is also experimenting with growing upland sushi rice adapted to the Catskills’ conditions." },
           { 
             "type": "image", 
-            "url": "/assets/images/Ellanor_6.jpg" 
+            "url": "/WBC_Mapping/assets/images/Ellanor_6.jpg" 
           } 
         ]
       },
@@ -50,7 +50,7 @@
           { "type": "paragraph", "text": "Farming, she believes, is not a finished or linear journey, but one that requires constant adjustment, experimentation, and connection to the land." },
           { 
             "type": "image", 
-            "url": "/assets/images/Ellanor_8.jpg" 
+            "url": "/WBC_Mapping/assets/images/Ellanor_8.jpg" 
           } 
         ]
       }
@@ -69,7 +69,7 @@
           { "type": "quote", "text": "Everything I do is rooted in reciprocity." },
           { 
             "type": "image", 
-            "url": "/assets/images/Sea_1.jpg" 
+            "url": "/WBC_Mapping/assets/images/Sea_1.jpg" 
           } 
         ]
       },
@@ -80,7 +80,7 @@
           { "type": "paragraph", "text": "By localizing tropical techniques and valuing slow, intentional farming, she brings culture, memory, and justice into every harvest." },
           { 
             "type": "image", 
-            "url": "/assets/images/Sea_2.jpg" 
+            "url": "/WBC_Mapping/assets/images/Sea_2.jpg" 
           } 
         ]
       },
@@ -92,7 +92,7 @@
           { "type": "paragraph", "text": "Her farming model is not centered on yield, but on need and relationship. She bridges Bronx and Catskills through a 'rural-to-urban' food loop that is built on trust and grassroots solidarity." },
           { 
             "type": "image", 
-            "url": "/assets/images/Sea_3.jpg" 
+            "url": "/WBC_Mapping/assets/images/Sea_3.jpg" 
           } 
         ]
       },
@@ -103,7 +103,7 @@
           { "type": "paragraph", "text": "With support from Tom Hutson and mentorship from farms like Berry Brook, she is building a path for BIPOC and queer farmers to not only steward land, but reshape its values." },
           { 
             "type": "image", 
-            "url": "/assets/images/Sea_4.jpg" 
+            "url": "/WBC_Mapping/assets/images/Sea_4.jpg" 
           } 
         ]
       }
@@ -122,7 +122,7 @@
           { "type": "paragraph", "text": "He never left the land. The farm has been in his family since the 1800s, and his life is woven into its rhythms, from riverbed soil to hayfields to barns passed down through generations." },
           { 
             "type": "image", 
-            "url": "/assets/images/Tom_2.jpg" 
+            "url": "/WBC_Mapping/assets/images/Tom_2.jpg" 
           } 
         ]
       },
@@ -133,7 +133,7 @@
           { "type": "paragraph", "text": "For Tom, land preservation isn’t just about ecology—it’s about ensuring future farmers have a chance to farm." },
           { 
             "type": "image", 
-            "url": "/assets/images/Tom_4.jpg" 
+            "url": "/WBC_Mapping/assets/images/Tom_4.jpg" 
           } 
         ]
       },
@@ -145,7 +145,7 @@
           { "type": "paragraph", "text": "He believes in preparing the land for people who will love it as much as he has." },
           { 
             "type": "image", 
-            "url": "/assets/images/Tom_5.jpg" 
+            "url": "/WBC_Mapping/assets/images/Tom_5.jpg" 
           } 
         ]
       },
@@ -156,7 +156,7 @@
           { "type": "paragraph", "text": "He speaks with dry wit and deep-rooted wisdom, carrying both humor and gravity as a steward of place." },
           { 
             "type": "image", 
-            "url": "/assets/images/Tom_1.jpg" 
+            "url": "/WBC_Mapping/assets/images/Tom_1.jpg" 
           } 
         ]
       }
@@ -175,7 +175,7 @@
           { "type": "quote", "text": "This is not a production-driven farm—it’s a space for healing and belonging." },
           { 
             "type": "image", 
-            "url": "/assets/images/KW & JT_1.jpg" 
+            "url": "/WBC_Mapping/assets/images/KW & JT_1.jpg" 
           } 
         ]
       },
@@ -186,11 +186,11 @@
           { "type": "paragraph", "text": "Rather than maximizing yield, IEC respects the pace of bodies and seasons—acknowledging that healing is as vital as harvest." },
           { 
             "type": "image", 
-            "url": "/assets/images/KW & JT_2.jpg" 
+            "url": "/WBC_Mapping/assets/images/KW & JT_2.jpg" 
           },
           { 
             "type": "image", 
-            "url": "/assets/images/KW & JT_3.jpg" 
+            "url": "/WBC_Mapping/assets/images/KW & JT_3.jpg" 
           }  
         ]
       },
@@ -201,7 +201,7 @@
           { "type": "paragraph", "text": "They work with mutual aid groups, schools, and organizers to build bridges across geography, culture, and class—turning the farm into both a growing space and a relational commons." },
           { 
             "type": "image", 
-            "url": "/assets/images/KW & JT_4.jpg" 
+            "url": "/WBC_Mapping/assets/images/KW & JT_4.jpg" 
           } 
         ]
       },
@@ -212,7 +212,7 @@
           { "type": "paragraph", "text": "IEC is not a project—it’s a practice. On any given day, the farm might be a site of ceremony, a healing space, a food distribution hub, or a quiet place to rest. By grounding land work in reciprocity, IEC challenges what farms are for and who they belong to." },
           { 
             "type": "image", 
-            "url": "/assets/images/KW & JT_5.jpg" 
+            "url": "/WBC_Mapping/assets/images/KW & JT_5.jpg" 
           } 
         ]
       }

@@ -2,21 +2,21 @@
   {
     "id": "Ellanor",
     "position": [1.1, -2, 13],
-    "markerImageUrl": "/assets/images/Ellanor_1.jpg"
+    "markerImageUrl": "/WBC_Mapping/assets/images/Ellanor_1.jpg"
   },
   {
     "id": "Sea",
     "position": [-9, -2, 1],
-    "markerImageUrl": "/assets/images/Sea_1.jpg"
+    "markerImageUrl": "/WBC_Mapping/assets/images/Sea_1.jpg"
   },
   {
     "id": "Tom",
     "position": [-5, -2, -2],
-    "markerImageUrl": "/assets/images/Tom_1.jpg"
+    "markerImageUrl": "/WBC_Mapping/assets/images/Tom_1.jpg"
   },
   {
     "id": "KW & JT",
     "position": [-8, -2, -5],
-    "markerImageUrl": "/assets/images/KW & JT_1.jpg"
+    "markerImageUrl": "/WBC_Mapping/assets/images/KW & JT_1.jpg"
   }
 ]
