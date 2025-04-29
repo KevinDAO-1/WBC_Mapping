@@ -1,8 +1,8 @@
 [
   {
-    "id": "Ellanor",
+    "id": "Eleanor", 
     "position": [1.1, -2, 13],
-    "markerImageUrl": "/WBC_Mapping/assets/images/Ellanor_1.jpg"
+    "markerImageUrl": "/WBC_Mapping/assets/images/Ellanor_1.jpg" 
   },
   {
     "id": "Sea",

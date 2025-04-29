@@ -1,5 +1,5 @@
 {
-  "Ellanor": {
+  "Eleanor": { 
     "title": "Berry Brook Farm",
     "highlightQuote": "Farming isn’t a fixed science. It’s shaped by place, time, and people.",
     "mainVideoUrl": "https://youtu.be/fD40O3Y3VfM",
@@ -56,59 +56,83 @@
       }
     ]
   },
-  "Sea": {
+  "Sea": { 
     "title": "Sana Vida Farm",
     "highlightQuote": "Everything I do is rooted in reciprocity.",
-    "mainVideoUrl": "https://youtu.be/ULtnQXg04Bw",
+    "mainVideoUrl": "https://youtu.be/ULtnQXg04Bw", 
     "chapters": [
       {
-        "title": "Farm Overview",
+        "title": "Roots & Inspiration",
         "contentBlocks": [
-          { "type": "paragraph", "text": "Sana Vida Farm is a small-scale, high-density operation founded by Bronx-born, queer Puerto Rican farmer Sea Matias in the Catskills. The farm’s name—Sana Vida—means 'healing life' and also references exchange and creativity in Taino language." },
-          { "type": "paragraph", "text": "Sea grows culturally rooted foods on less than two acres, yet yields tens of thousands of pounds of produce annually, much of which supports mutual aid networks in the Bronx, Harlem, and beyond." },
-          { "type": "quote", "text": "Everything I do is rooted in reciprocity." },
+          { "type": "paragraph", "text": "Sea’s story begins in the Bronx, where they spent countless hours in their Abuela María’s kitchen, listening to stories about her childhood growing up on a farm in the mountains of Orocovis, Puerto Rico." },
+          { "type": "paragraph", "text": "She would tell Sea about waking before sunrise to tend to crops with her siblings—growing yuca, gandules, and plantains, hauling water by hand, and living in rhythm with the land. Through these stories, Sea inherited a deep respect for land-based living and cultural foodways." },
+          { "type": "paragraph", "text": "They also learned how to make pasteles, sofrito, and arroz con gandules—recipes that carried both memory and meaning." }
           { 
             "type": "image", 
-            "url": "/WBC_Mapping/assets/images/Sea_1.jpg" 
+            "url": "/assets/images/Sea_1.jpg" 
           } 
         ]
       },
       {
-        "title": "Ancestral Connection",
+        "title": "Urban Farming & Vision",
         "contentBlocks": [
-          { "type": "paragraph", "text": "Sea’s farming is deeply informed by the teachings of her grandmother, who farmed the hills of Puerto Rico before working in New York City factories. That legacy lives on in Sea’s work, from saving seeds to growing crops like culantro, epazote, and Caribbean greens that honor her heritage." },
-          { "type": "paragraph", "text": "By localizing tropical techniques and valuing slow, intentional farming, she brings culture, memory, and justice into every harvest." },
+          { "type": "paragraph", "text": "In New York, Sea later discovered urban agriculture through Farm School NYC, which became a turning point in their life." },
+          { "type": "paragraph", "text": "They apprenticed at Morning Glory Community Garden in the Bronx—a space dedicated to growing affordable and culturally relevant food for the local community. This experience not only gave them skills but also sparked a larger vision: to bring that same community-rooted agricultural model to the countryside, using more land to practice mutual aid farming on a larger scale." }
           { 
             "type": "image", 
-            "url": "/WBC_Mapping/assets/images/Sea_2.jpg" 
+            "url": "/assets/images/Sea_2.jpg" 
           } 
         ]
       },
       {
-        "title": "Mutual Aid and Food Sovereignty",
+        "title": "Sana Vida Farm: Meaning & Philosophy",
         "contentBlocks": [
-          { "type": "paragraph", "text": "Sea doesn’t sell to traditional markets—instead, her harvests are delivered directly into hands of community members through Ujamaa Garden, Kelly Street Garden, and other mutual aid groups." },
-          { "type": "quote", "text": "Land is not something to own. It’s something to be in relationship with." },
-          { "type": "paragraph", "text": "Her farming model is not centered on yield, but on need and relationship. She bridges Bronx and Catskills through a 'rural-to-urban' food loop that is built on trust and grassroots solidarity." },
+          { "type": "paragraph", "text": "It was this vision that gave birth to Sana Vida Farm. Sea explained the meaning behind the name— “Serra” comes from the Taíno language and signifies exchange or art, while “Vida” means life in Spanish." },
+          { "type": "quote", "text": "To them, the name reflects the reciprocity and flow of life itself." },
+          { "type": "paragraph", "text": "More than a farm name, it represents a philosophy: that land isn’t owned, but cared for, shared, and stewarded for future generations." }
+        ]
+      },
+      {
+        "title": "First Year & Production",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Speaking of the farm’s first year, Sea showed a modest pride. Though they were still just beginning—as a pilot lessee of West Branch Commons—they achieved remarkable results." },
+          { "type": "paragraph", "text": "Using intensive growing techniques learned from urban farming, including succession planting, close spacing, and intercropping, they produced nearly 10,000 pounds of food on just over an acre." },
+          { "type": "paragraph", "text": "Of this, more than 9,000 pounds weren’t sold but distributed through mutual aid networks—feeding 300 families weekly for thirteen weeks." }
           { 
             "type": "image", 
-            "url": "/WBC_Mapping/assets/images/Sea_3.jpg" 
+            "url": "/assets/images/Sea_3.jpg" 
           } 
         ]
       },
       {
-        "title": "Building Commons",
+        "title": "Collaboration Network & Supporters",
         "contentBlocks": [
-          { "type": "paragraph", "text": "As a member of Iridescent Earth Collective and a partner in the Great Northern Catskills Agrarian Commons, Sea is helping redefine what land access means for new farmers." },
-          { "type": "paragraph", "text": "With support from Tom Hutson and mentorship from farms like Berry Brook, she is building a path for BIPOC and queer farmers to not only steward land, but reshape its values." },
+          { "type": "paragraph", "text": "None of this would have been possible without extensive collaboration. Sea built mutual aid relationships with organizations like 607 CSA, Catskills Agrarian Alliance, Essex Food Hub, New Roots Community Farm, and Kelly Street Garden." },
+          { "type": "paragraph", "text": "Larger farms like Berry Brook Farm and Star Route Farm supported their supply goals by providing additional produce. This model—of larger farms supporting smaller ones—became a perfect embodiment of their mutual aid farming philosophy." },
+          { "type": "paragraph", "text": "Sea specifically mentioned key supporters in this process—like Eleanor from Very Good Farm, who helped with seeding equipment, cultivation, and offered steady support as a neighbor." },
+          { "type": "paragraph", "text": "They also named Tom of River Haven Farm, whose early encouragement, tools, and land-based knowledge helped Sea feel grounded as they built their operation." }
+        ]
+      },
+      {
+        "title": "Funding & Personal Support",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Additionally, they acknowledged essential sources of support and funding: the National Young Farmers Coalition, American Farmland Trust, Kingston Land Trust, and Cornell Cooperative Extension in Sullivan County. Each played a role in helping Sana Vida Farm take root." },
+          { "type": "paragraph", "text": "And they didn’t forget to thank their partner, whose emotional and practical support has been vital to the farm’s growth." }
           { 
             "type": "image", 
-            "url": "/WBC_Mapping/assets/images/Sea_4.jpg" 
+            "url": "/assets/images/Sea_4.jpg" 
           } 
+        ]
+      },
+      {
+        "title": "Current Expansion & Values",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Today, the farm is expanding, steadily reaching broader communities. Sea continues to build mutual aid partnerships with groups like Corbin Hill Food Project and Nourish New York—bringing food to Harlem CSAs, Bronx food banks, and food-insecure communities across the state." },
+          { "type": "paragraph", "text": "They also continue donating to food pantries in Delaware County, holding true to the values that have shaped their path: reciprocity, remembrance, and resilience." }
         ]
       }
     ]
-  },
+  }, 
   "Tom": {
     "title": "River Haven Farm",
     "highlightQuote": "On my own ground, I’m king.",
@@ -162,10 +186,10 @@
       }
     ]
   },
-  "KW & JT": {
+  "KW & JT": { 
     "title": "Iridescent Earth Collective",
     "highlightQuote": "We don’t just want access to land—we want to transform what land means.",
-    "mainVideoUrl": "https://youtu.be/cLRuSr8jZEo",
+    "mainVideoUrl": "https://youtu.be/cLRuSr8jZEo", 
     "chapters": [
       {
         "title": "Origins and Vision",
@@ -175,7 +199,7 @@
           { "type": "quote", "text": "This is not a production-driven farm—it’s a space for healing and belonging." },
           { 
             "type": "image", 
-            "url": "/WBC_Mapping/assets/images/KW & JT_1.jpg" 
+            "url": "/assets/images/KW & JT_1.jpg" 
           } 
         ]
       },
@@ -186,11 +210,11 @@
           { "type": "paragraph", "text": "Rather than maximizing yield, IEC respects the pace of bodies and seasons—acknowledging that healing is as vital as harvest." },
           { 
             "type": "image", 
-            "url": "/WBC_Mapping/assets/images/KW & JT_2.jpg" 
+            "url": "/assets/images/KW & JT_2.jpg" 
           },
           { 
             "type": "image", 
-            "url": "/WBC_Mapping/assets/images/KW & JT_3.jpg" 
+            "url": "/assets/images/KW & JT_3.jpg" 
           }  
         ]
       },
@@ -201,7 +225,7 @@
           { "type": "paragraph", "text": "They work with mutual aid groups, schools, and organizers to build bridges across geography, culture, and class—turning the farm into both a growing space and a relational commons." },
           { 
             "type": "image", 
-            "url": "/WBC_Mapping/assets/images/KW & JT_4.jpg" 
+            "url": "/assets/images/KW & JT_4.jpg" 
           } 
         ]
       },
@@ -212,10 +236,10 @@
           { "type": "paragraph", "text": "IEC is not a project—it’s a practice. On any given day, the farm might be a site of ceremony, a healing space, a food distribution hub, or a quiet place to rest. By grounding land work in reciprocity, IEC challenges what farms are for and who they belong to." },
           { 
             "type": "image", 
-            "url": "/WBC_Mapping/assets/images/KW & JT_5.jpg" 
+            "url": "/assets/images/KW & JT_5.jpg" 
           } 
         ]
       }
     ]
-  }
+  } 
 }
