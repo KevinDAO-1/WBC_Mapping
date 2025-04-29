@@ -7,9 +7,9 @@
       {
         "title": "History and Beginnings",
         "contentBlocks": [
-          { "type": "paragraph", "text": "Berry Brook Farm was founded in 2011 by Ellanor and her partner Patrick. Starting from scratch in the Catskills, they gradually built a diversified and high-output farm on limited acreage. The beginning was made possible with the help of local farmers—neighbors who tilled, spread lime, shared their equipment, and helped them get to markets." },
+          { "type": "paragraph", "text": "Berry Brook Farm was founded in 2011 by Eleanor and her partner Patrick. Starting from scratch in the Catskills, they gradually built a diversified and high-output farm on limited acreage. The beginning was made possible with the help of local farmers—neighbors who tilled, spread lime, shared their equipment, and helped them get to markets." },
           { "type": "quote", "text": "We were helped in the beginning—and now we’re just paying it forward." },
-          { "type": "paragraph", "text": "This spirit of mutual support deeply shaped Ellanor’s approach to farming and community." },
+          { "type": "paragraph", "text": "This spirit of mutual support deeply shaped Eleanor’s approach to farming and community." },
           { 
             "type": "image", 
             "url": "/WBC_Mapping/assets/images/Ellanor_5.jpg" 
@@ -19,7 +19,7 @@
       {
         "title": "Current Practices",
         "contentBlocks": [
-          { "type": "paragraph", "text": "Today, Berry Brook Farm is a core contributor to the 607 CSA, a regional cooperative distributing fresh produce from over 60 farms to 30+ pickup sites across NYC and upstate. Ellanor uses a tightly managed system including heated greenhouses, walk-in coolers, and root washers to maintain steady production nearly year-round." },
+          { "type": "paragraph", "text": "Today, Berry Brook Farm is a core contributor to the 607 CSA, a regional cooperative distributing fresh produce from over 60 farms to 30+ pickup sites across NYC and upstate. Eleanor uses a tightly managed system including heated greenhouses, walk-in coolers, and root washers to maintain steady production nearly year-round." },
           { "type": "paragraph", "text": "The farm focuses on sustainable soil management—no heavy tilling, no chemical fertilizers, always rotating and restoring." },
           { 
             "type": "image", 
@@ -34,9 +34,9 @@
       {
         "title": "Community Contribution",
         "contentBlocks": [
-          { "type": "paragraph", "text": "Berry Brook’s role goes beyond production. Ellanor actively supports younger farmers—like Sea from Sana Vida Farm—by mentoring, sharing tools, offering technical advice, and helping build marketing pathways." },
+          { "type": "paragraph", "text": "Berry Brook’s role goes beyond production. Eleanor  actively supports younger farmers—like Sea from Sana Vida Farm—by mentoring, sharing tools, offering technical advice, and helping build marketing pathways." },
           { "type": "quote", "text": "Farming isn’t a fixed science. It’s shaped by place, time, and people." },
-          { "type": "paragraph", "text": "She sees this support not as charity but as reciprocity, echoing the generosity she and Patrick once received. In addition to vegetable production, Ellanor is also experimenting with growing upland sushi rice adapted to the Catskills’ conditions." },
+          { "type": "paragraph", "text": "She sees this support not as charity but as reciprocity, echoing the generosity she and Patrick once received. In addition to vegetable production, Eleanor  is also experimenting with growing upland sushi rice adapted to the Catskills’ conditions." },
           { 
             "type": "image", 
             "url": "/WBC_Mapping/assets/images/Ellanor_6.jpg" 
@@ -46,7 +46,7 @@
       {
         "title": "Looking Ahead",
         "contentBlocks": [
-          { "type": "paragraph", "text": "Despite the distance to urban markets and limitations of local demand, Ellanor is exploring ways to strengthen regional food resilience. This includes reducing reliance on city markets, focusing on product diversification, and possibly integrating perennial crops like fruit trees." },
+          { "type": "paragraph", "text": "Despite the distance to urban markets and limitations of local demand, Eleanor  is exploring ways to strengthen regional food resilience. This includes reducing reliance on city markets, focusing on product diversification, and possibly integrating perennial crops like fruit trees." },
           { "type": "paragraph", "text": "Farming, she believes, is not a finished or linear journey, but one that requires constant adjustment, experimentation, and connection to the land." },
           { 
             "type": "image", 
@@ -69,7 +69,7 @@
           { "type": "paragraph", "text": "They also learned how to make pasteles, sofrito, and arroz con gandules—recipes that carried both memory and meaning." }, 
           { 
             "type": "image", 
-            "url": "/assets/images/Sea_1.jpg" 
+            "url": "/WBC_Mapping/assets/images/Sea_1.jpg" 
           } 
         ]
       },
@@ -77,7 +77,11 @@
         "title": "Urban Farming & Vision",
         "contentBlocks": [
           { "type": "paragraph", "text": "In New York, Sea later discovered urban agriculture through Farm School NYC, which became a turning point in their life." },
-          { "type": "paragraph", "text": "They apprenticed at Morning Glory Community Garden in the Bronx—a space dedicated to growing affordable and culturally relevant food for the local community. This experience not only gave them skills but also sparked a larger vision: to bring that same community-rooted agricultural model to the countryside, using more land to practice mutual aid farming on a larger scale." }
+          { "type": "paragraph", "text": "They apprenticed at Morning Glory Community Garden in the Bronx—a space dedicated to growing affordable and culturally relevant food for the local community. This experience not only gave them skills but also sparked a larger vision: to bring that same community-rooted agricultural model to the countryside, using more land to practice mutual aid farming on a larger scale." },
+          { 
+            "type": "image", 
+            "url": "/WBC_Mapping/assets/images/Sea_2.jpg" 
+          } 
         ]
       },
       {
@@ -93,7 +97,11 @@
         "contentBlocks": [
           { "type": "paragraph", "text": "Speaking of the farm’s first year, Sea showed a modest pride. Though they were still just beginning—as a pilot lessee of West Branch Commons—they achieved remarkable results." },
           { "type": "paragraph", "text": "Using intensive growing techniques learned from urban farming, including succession planting, close spacing, and intercropping, they produced nearly 10,000 pounds of food on just over an acre." },
-          { "type": "paragraph", "text": "Of this, more than 9,000 pounds weren’t sold but distributed through mutual aid networks—feeding 300 families weekly for thirteen weeks." }
+          { "type": "paragraph", "text": "Of this, more than 9,000 pounds weren’t sold but distributed through mutual aid networks—feeding 300 families weekly for thirteen weeks." },
+          { 
+            "type": "image", 
+            "url": "/WBC_Mapping/assets/images/Sea_3.jpg" 
+          } 
         ]
       },
       {
@@ -102,14 +110,22 @@
           { "type": "paragraph", "text": "None of this would have been possible without extensive collaboration. Sea built mutual aid relationships with organizations like 607 CSA, Catskills Agrarian Alliance, Essex Food Hub, New Roots Community Farm, and Kelly Street Garden." },
           { "type": "paragraph", "text": "Larger farms like Berry Brook Farm and Star Route Farm supported their supply goals by providing additional produce. This model—of larger farms supporting smaller ones—became a perfect embodiment of their mutual aid farming philosophy." },
           { "type": "paragraph", "text": "Sea specifically mentioned key supporters in this process—like Eleanor from Very Good Farm, who helped with seeding equipment, cultivation, and offered steady support as a neighbor." },
-          { "type": "paragraph", "text": "They also named Tom of River Haven Farm, whose early encouragement, tools, and land-based knowledge helped Sea feel grounded as they built their operation." }
+          { "type": "paragraph", "text": "They also named Tom of River Haven Farm, whose early encouragement, tools, and land-based knowledge helped Sea feel grounded as they built their operation." },
+          { 
+            "type": "image", 
+            "url": "/WBC_Mapping/assets/images/Sea_4.jpg" 
+          } 
         ]
       },
       {
         "title": "Funding & Personal Support",
         "contentBlocks": [
           { "type": "paragraph", "text": "Additionally, they acknowledged essential sources of support and funding: the National Young Farmers Coalition, American Farmland Trust, Kingston Land Trust, and Cornell Cooperative Extension in Sullivan County. Each played a role in helping Sana Vida Farm take root." },
-          { "type": "paragraph", "text": "And they didn’t forget to thank their partner, whose emotional and practical support has been vital to the farm’s growth." }
+          { "type": "paragraph", "text": "And they didn’t forget to thank their partner, whose emotional and practical support has been vital to the farm’s growth." },
+          { 
+            "type": "image", 
+            "url": "/WBC_Mapping/assets/images/Sea_5.jpg" 
+          } 
         ]
       },
       {
@@ -187,7 +203,7 @@
           { "type": "quote", "text": "This is not a production-driven farm—it’s a space for healing and belonging." },
           { 
             "type": "image", 
-            "url": "/assets/images/KW & JT_1.jpg" 
+            "url": "/WBC_Mapping/assets/images/KW & JT_1.jpg" 
           } 
         ]
       },
@@ -198,11 +214,11 @@
           { "type": "paragraph", "text": "Rather than maximizing yield, IEC respects the pace of bodies and seasons—acknowledging that healing is as vital as harvest." },
           { 
             "type": "image", 
-            "url": "/assets/images/KW & JT_2.jpg" 
+            "url": "/WBC_Mapping/assets/images/KW & JT_2.jpg" 
           },
           { 
             "type": "image", 
-            "url": "/assets/images/KW & JT_3.jpg" 
+            "url": "/WBC_Mapping/assets/images/KW & JT_3.jpg" 
           }  
         ]
       },
@@ -213,7 +229,7 @@
           { "type": "paragraph", "text": "They work with mutual aid groups, schools, and organizers to build bridges across geography, culture, and class—turning the farm into both a growing space and a relational commons." },
           { 
             "type": "image", 
-            "url": "/assets/images/KW & JT_4.jpg" 
+            "url": "/WBC_Mapping/assets/images/KW & JT_4.jpg" 
           } 
         ]
       },
@@ -224,7 +240,7 @@
           { "type": "paragraph", "text": "IEC is not a project—it’s a practice. On any given day, the farm might be a site of ceremony, a healing space, a food distribution hub, or a quiet place to rest. By grounding land work in reciprocity, IEC challenges what farms are for and who they belong to." },
           { 
             "type": "image", 
-            "url": "/assets/images/KW & JT_5.jpg" 
+            "url": "/WBC_Mapping/assets/images/KW & JT_5.jpg" 
           } 
         ]
       }
