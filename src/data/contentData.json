@@ -66,7 +66,7 @@
         "contentBlocks": [
           { "type": "paragraph", "text": "Sea’s story begins in the Bronx, where they spent countless hours in their Abuela María’s kitchen, listening to stories about her childhood growing up on a farm in the mountains of Orocovis, Puerto Rico." },
           { "type": "paragraph", "text": "She would tell Sea about waking before sunrise to tend to crops with her siblings—growing yuca, gandules, and plantains, hauling water by hand, and living in rhythm with the land. Through these stories, Sea inherited a deep respect for land-based living and cultural foodways." },
-          { "type": "paragraph", "text": "They also learned how to make pasteles, sofrito, and arroz con gandules—recipes that carried both memory and meaning." }
+          { "type": "paragraph", "text": "They also learned how to make pasteles, sofrito, and arroz con gandules—recipes that carried both memory and meaning." }, 
           { 
             "type": "image", 
             "url": "/assets/images/Sea_1.jpg" 
@@ -78,10 +78,6 @@
         "contentBlocks": [
           { "type": "paragraph", "text": "In New York, Sea later discovered urban agriculture through Farm School NYC, which became a turning point in their life." },
           { "type": "paragraph", "text": "They apprenticed at Morning Glory Community Garden in the Bronx—a space dedicated to growing affordable and culturally relevant food for the local community. This experience not only gave them skills but also sparked a larger vision: to bring that same community-rooted agricultural model to the countryside, using more land to practice mutual aid farming on a larger scale." }
-          { 
-            "type": "image", 
-            "url": "/assets/images/Sea_2.jpg" 
-          } 
         ]
       },
       {
@@ -98,10 +94,6 @@
           { "type": "paragraph", "text": "Speaking of the farm’s first year, Sea showed a modest pride. Though they were still just beginning—as a pilot lessee of West Branch Commons—they achieved remarkable results." },
           { "type": "paragraph", "text": "Using intensive growing techniques learned from urban farming, including succession planting, close spacing, and intercropping, they produced nearly 10,000 pounds of food on just over an acre." },
           { "type": "paragraph", "text": "Of this, more than 9,000 pounds weren’t sold but distributed through mutual aid networks—feeding 300 families weekly for thirteen weeks." }
-          { 
-            "type": "image", 
-            "url": "/assets/images/Sea_3.jpg" 
-          } 
         ]
       },
       {
@@ -118,10 +110,6 @@
         "contentBlocks": [
           { "type": "paragraph", "text": "Additionally, they acknowledged essential sources of support and funding: the National Young Farmers Coalition, American Farmland Trust, Kingston Land Trust, and Cornell Cooperative Extension in Sullivan County. Each played a role in helping Sana Vida Farm take root." },
           { "type": "paragraph", "text": "And they didn’t forget to thank their partner, whose emotional and practical support has been vital to the farm’s growth." }
-          { 
-            "type": "image", 
-            "url": "/assets/images/Sea_4.jpg" 
-          } 
         ]
       },
       {
